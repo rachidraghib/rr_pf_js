@@ -1,0 +1,143 @@
+{
+  "hero": {
+    "name": "<span style=\"color: #38bdf8;\">I am Rachid Raghib</span>",
+
+    "title": "<br>Software Engineer & U.S. Army <span style=\"color: #38bdf8;\">Veteran</span><br>Computer Science Student<br>Certified in Python by <span style=\"color: #38bdf8;\">VetsinTech</span>",
+
+    "subtitle": "<br><p1><strong>Specialized in Science, Tech, Engineering, and Mathematics.</strong><br><br>Competent in translating high-stakes mission discipline into clean, high-performance backend architecture, as well as building reliable web applications and developer tools with precision and clarity.<br><br>🔵<strong>Stack:</strong> <span   style=\"color: #38bdf8;\">C++, Python,Javascript, SQL, Flask</span></p1>",
+
+    "ctaText": "<br><strong>🔵 Download PDFs</strong>"
+  },
+
+  "about": {
+    "bio": "<p1>I am a <span style=\"color: #38bdf8;\">Computer Science student</span> and a former <span style=\"color: #38bdf8;\">U.S. Army Interpreter</span> dedicated to solving complex problems, whether they are coded in Python or spoken in the field. My unique background combines the high-stakes discipline of military operations with the analytical rigor of software engineering.<br> <br> I view coding and linguistics as two sides of the same coin: both require breaking down complex, high-context systems into structured, logical syntax to bridge gaps and drive mission success. I focus on backend architecture, database integrity, and efficient algorithms.<br><br>Maintaining a <span style=\"color: #38bdf8;\">3.3 GPA</span> alongside my academic and technical coursework. Skilled in <span style=\"color: #38bdf8;\">C++, Python, SQL, and web development technologies</span>, eager to contribute to dynamic teams and create impactful software applications.<br><br> Armed with a zero-fail military mindset and robust technical training, I apply rigorous quality assurance standards to every codebase I write. I am  actively preparing for technical placement roles in full stack and backend software engineering.</p1>",
+    "resumeUrl": ""
+  },
+  "skills": [
+    {
+      "category": [
+        "<a> <img src=\"images/cpp.png \" alt=\"C++\" img-align=\"right\" width=\"100\" height=\"100\"></a><br>C++"
+      ],
+      "summary": [
+        "Proficient in procedural programming, memory mechanics, and structural basics. Skilled in Object-oriented programming architectures, manual & automated memory management, and modern standards."
+      ],
+      "items": [
+        "<span style=\"color:pink;\">🔵  C++ Application Development (Fundamentals)</span><br>",
+        "<span style=\"color:skyblue;\">• Syntax & Logic:</span><br><br> Proficient in structural logic, multi-conditional branching, loops, and functional decomposition.",
+        "<span style=\"color:skyblue;\">• Procedural Mastery:</span><br><br> Experienced in building menu-driven console applications, automated data processing scripts, and interactive math/logic programs.",
+        "<span style=\"color:skyblue;\">• Foundational OOP:</span><br><br> Able to model real-world concepts into simple classes, ensuring clean code separation using basic encapsulation rules.",
+        "<span style=\"color:skyblue;\">• Standard Library:</span><br><br> Skilled in basic console input/output parsing (`<iostream>`) and fixed data collection using basic arrays.",
+        "<span style=\"color:pink;\">🔵  C++ Application Development (Graphical User Interface)</span><br>",
+        "<span style=\"color:skyblue;\">• Object-Oriented Architecture:</span><br><br> Designed and built multi-class inheritance hierarchies implementing runtime polymorphism, virtual functions, and abstract interfaces.",
+        "<span style=\"color:skyblue;\">• Memory & Resource Management:</span><br><br> Strong grasp of memory life cycles, stack vs. heap allocation, reference passing, and preventing manual memory leaks using dynamic allocation.",
+        "<span style=\"color:skyblue;\">• Data Structures & STL:</span><br><br> Leveraging STL containers (`std::vector`, `std::map`, `std::list`) alongside algorithm libraries to optimize runtime performance.",
+        "<span style=\"color:skyblue;\">• Modular Software Engineering:</span><br><br> Adept at splitting application logic into distinct headers (`.h`) and implementation (`.cpp`) files, building robust error-handling pipelines with exceptions, and handling persistent storage using custom File I/O interfaces."
+      ]
+    },
+
+    {
+      "category": "<a> <img src=\"images/py.png \" alt=\"Python\" img-align=\"right\" width=\"100\" height=\"100\"></a><br>Python",
+      "summary": [
+        "Building lightweight web servers, handling HTTP protocols, serving dynamic templates, designing database schemas and integrating persistent relational storage engines into Python apps as well as Packaging applications securely and launching them onto cloud ecosystems."
+      ],
+      "items": [
+        "<span style=\"color:pink;\">🔵  Python Foundations:</span><br>",
+        "<span style=\"color:skyblue;\">• Data Control:</span><br><br> Implementing conditional logic (if/elif/else) and loops (for, while, break/continue).",
+        "<span style=\"color:skyblue;\">• Data Structures:</span><br><br>Efficient use of Lists, Dictionaries, Tuples, and Sets for basic data storage.",
+        " <span style=\"color:skyblue;\">• Clean Code:</span><br><br> Structuring logic into reusable, modular functions with clear parameters and return types.",
+        "<span style=\"color:skyblue;\">• File Handling:</span><br><br> Reading from and writing to local .txt and .csv files using context managers (with open).",
+
+        "<span style=\"color:pink;\">🔵  Object-Oriented Programming (OOP) Basics:</span>",
+        "<span style=\"color:skyblue;\">• Class Architecture:</span><br><br> Creating classes, defining attributes inside __init__, and implementing instance methods.",
+        "<span style=\"color:skyblue;\">• Inheritance</span><br><br>Extending base classes to eliminate redundant code.",
+        "<span style=\"color:skyblue;\">• Encapsulation:</span><br><br> Using public and private/protected attributes appropriately to shield internal data.",
+
+        "<span style=\"color:pink;\">🔵  Error Handling & Debugging:</span><br>",
+        "<span style=\"color:skyblue;\">• Defensive Coding:</span><br><br> Implementing try/except/finally blocks to intercept common errors (e.g., ValueError, KeyError, FileNotFoundError).",
+        "<span style=\"color:skyblue;\">• Debugging:</span><br><br> Navigating tracebacks, using print-statement logging, or inspecting variables via basic IDE debuggers.",
+
+        "<span style=\"color:pink;\">🔵  Dynamic Web Backends (Flask/FastAPI):</span><br>",
+        "<span style=\"color:skyblue;\">• Schema Design:</span><br><br> Designing structured SQL tables with primary keys, foreign keys, and logical relationships.",
+        "<span style=\"color:skyblue;\">• Database Control:</span><br><br> Utilizing sqlite3 or an ORM (like SQLAlchemy) to execute secure CRUD operations (Create, Read, Update, Delete).",
+        "<span style=\"color:skyblue;\">• File Upload Integration:</span><br><br> Safely storing, mapping, and retrieving media assets (like local image paths) from a database structure.",
+
+        "<span style=\"color:pink;\">🔵  Architecture, Environment & Deployment:</span><br>",
+        "<span style=\"color:skyblue;\">• Environment Isolation:</span><br><br> Managing clean project structures using virtual environments (venv) and compiling requirements.txt.",
+        "<span style=\"color:skyblue;\">• Security Configuration:</span><br><br> Isolating runtime variables and sensitive keys outside code repositories using .env files.",
+        "<span style=\"color:skyblue;\">• Cloud Deployment:</span><br><br> Preparing WSGI/ASGI application configs to deploy live code to production cloud hosts (e.g., Render, Vercel)."
+      ]
+    },
+
+    {
+      "category": "<a> <img src=\"images/js.png \" alt=\"JavaScript\" img-align=\"right\" width=\"100\" height=\"100\"></a><br>JavaScript",
+      "summary": [
+        "Building lightweight web applications with JavaScript, HTML5, and CSS3. and enhancing user experience through dynamic DOM manipulation and asynchronous data fetching."
+      ],
+      "items": [
+        "<span style=\"color:skyblue;\">• HTML5 & CSS3 Layouts:</span><br><br> Semantic tags, Flexbox, and responsive design fundamentals.",
+        "<span style=\"color:skyblue;\">• JavaScript DOM Manipulation:</span><br><br> Selecting, creating, and modifying HTML elements dynamically using the Document Object Model (DOM).",
+        "<span style=\"color:skyblue;\">• Async/Await & Fetch API:</span><br><br> Handling asynchronous operations and making HTTP requests using the Fetch API."
+      ]
+    },
+
+    {
+      "category": "<a> <img src=\"images/devTools.png \" alt=\"DevTools\" img-align=\"right\" width=\"100\" height=\"100\"></a><br>Tools & DevOps",
+      "summary": [
+        "Essential developer tools for version control, command line operations, and code editing workflows."
+      ],
+      "items": [
+        "<span style=\"color:skyblue;\">• Git & GitHub:</span><br><br> Version control, branching strategies, pull requests, and managing open-source or team repositories.",
+        "<span style=\"color:skyblue;\">• Command Line / Terminal:</span><br><br> Navigating filesystems, managing file permissions, executing scripts, and working with CLI tools.",
+        "<span style=\"color:skyblue;\">• VS Code:</span><br><br> Utilizing Visual Studio Code for efficient coding, extensions, and integrated terminal workflows.",
+        "<span style=\"color:skyblue;\">• MS Visual Studio:</span><br><br> Utilizing Microsoft Visual Studio for developing and managing complex software projects."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "E-Commerce App",
+      "description": "<br>A professional, full-stack Python Flask web application featuring a functional menu presentation directory and an interactive shopping cart. The platform handles user access to local server storage and  persistence safely on the server side via cryptographic session signatures, processing item counts, quantity alterations, dynamic filtering, and complete transaction calculations inside a lightweight SQLite layout.",
+      "tags": ["Python", "Flask", "HTML5", "CSS3", "Bootstrap", "FastAPI"],
+      "liveUrl": "https://github.com/rachidraghib/ft_menu_py",
+      "repoUrl": "https://github.com/rachidraghib/ft_menu_py"
+    },
+    {
+      "title": "Portfolio Site",
+      "description": "A sleek JSON-driven responsive portfolio with a side nav., built with pure javascript that dynamically populates pages by fetching data from  JSON files.",
+      "tags": ["HTML5", "CSS Grid", "Vanilla JS"],
+      "liveUrl": "https://github.com/rachidraghib/ft_menu_py",
+      "repoUrl": "https://github.com/rachidraghib/ft_menu_py"
+    },
+    {
+      "title": "Manual C++ GUI Desktop Application",
+      "description": "A high-performance desktop application written in C++ using wxWidgets toolKit. The application provides a native graphical user interface (GUI) across multiple platforms (Windows, macOS, and Linux) from a single unified codebase.<br>",
+  
+      "tags": ["C++", "wxWidgets","MS Visual Studio"],
+      "liveUrl": "https://github.com/rachidraghib/ft_menu_py",
+      "repoUrl": "https://github.com/rachidraghib/ft_menu_py"
+    },
+     {
+      "title": "Menu Driven C++ Console Application",
+      "description": "A menu-driven C++ console application that provides an interactive command-line interface for users to navigate through various options and perform tasks efficiently.<br>",
+      
+      "tags": ["C++"],
+      "liveUrl": "cpp.exe",
+      "repoUrl": "https://github.com/rachidraghib/cpp_menu_driven"
+    },
+    {
+      "title": "Menu Driven Python Console Application",
+      "description": "A menu-driven Python console application that provides an interactive command-line interface for users to navigate through various options and perform tasks efficiently.<br>",
+      
+      "tags": ["Python"],
+      "liveUrl": "https://github.com/rachidraghib/ft_menu_py",
+      "repoUrl": "https://github.com/rachidraghib/ft_menu_py"
+    }
+  ],
+
+  "contact": {
+    "email": "<p1>rachid.raghib@bhcc.edu<br>rachidraghib@hotmail.com</p1>",
+    "phone": "<p1>Cell:+1 (857) 600-0000<br>Office: +1 (857) 600-0001</p1>",
+    "github": "<p1>https://github.com</p1>",
+    "linkedin": "<p1>https://linkedin.com</p1>"
+  }
+}
