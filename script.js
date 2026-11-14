@@ -235,24 +235,29 @@ function renderContact(contact) {
 
 <a> <img src=\"images/email.jpg \" alt=\"Email\" img-align=\"right\" width=\"50\" height=\"50\"><span style="color: #38bdf8;">  Email:</span></a>  
 
-<br><a href="mailto:${contact.email}"><smaller>${contact.email}</smaller></a>
+<br><a href="mailto:${contact.email}"><smaller><p1>${contact.email}</p1></smaller></a>
 
 <br>
 <br>
 
 <a> <img src=\"images/phone.jpg \" alt=\"Phone\" img-align=\"right\" width=\"50\" height=\"50\"><span style="color: #38bdf8;">  Phone:</span></a>  
-<br><a href="tel:${contact.phone}"><smaller>${contact.phone}</smaller></a>
+<br><a href="tel:${contact.phone}"><smaller><p1>${contact.phone}</p1></smaller></a>
 
 <br>
 <br>
 
-<a> <img src=\"images/github.webp \" alt=\"GitHub\" img-align=\"right\" width=\"50\" height=\"50\"><span style="color: #38bdf8;"> GitHub:</span></a>         
+
+<a> <img src=\"images/web.webp \" alt=\"Website\" img-align=\"right\" width=\"50\" height=\"50\"><span style="color: #38bdf8;"> Website:</span></a>
+<br><a href="${contact.website}" target="_blank" rel="noopener noreferrer"><smaller><p1>${contact.website}</p1></smaller></a><br>
+<br>
+
+<a> <img src=\"images/github.webp \" alt=\"GitHub\" img-align=\"right\" width=\"50\" height=\"50\"><span style="color: #38bdf8;"> GitHub:</span></a>
 
 
-<br><a href="${contact.github}" target="_blank"><smaller> ${contact.github}</smaller></a><br>
+<br><a href="${contact.github}" target="_blank" rel="noopener noreferrer"><smaller><p1> ${contact.github}</p1></smaller></a><br>
 <br><a> <img src=\"images/linkedin.jpg \" alt=\"LinkedIn\" img-align=\"right\" width=\"50\" height=\"50\"><span style="color: #38bdf8;"> LinkedIn:</span></a>
 
-<br><a href="${contact.linkedin}" target="_blank"><smaller>${contact.linkedin}</smaller></a><br>
+<br><a href="${contact.linkedin}" target="_blank" rel="noopener noreferrer"><smaller><p1>${contact.linkedin}</p1></smaller></a><br>
 <br><br>
 <span style="color: #38bdf8;"><h2>Get In Touch</h2></span><br>
 

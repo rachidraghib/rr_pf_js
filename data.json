@@ -135,9 +135,10 @@
   ],
 
   "contact": {
-    "email": "<p1>rachid.raghib@bhcc.edu<br>rachidraghib@hotmail.com</p1>",
-    "phone": "<p1>Cell:+1 (857) 600-0000<br>Office: +1 (857) 600-0001</p1>",
-    "github": "<p1>https://github.com</p1>",
-    "linkedin": "<p1>https://linkedin.com</p1>"
+    "email": "rachid.raghib@bhcc.edu<br>rachidraghib@hotmail.com",
+    "phone": "Cell:+1 (617) 999-8091<br>Office: +1 (617) 999-8091",
+    "website": "https://rachidraghib.github.io/rr_pf_js/",
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com"
   }
 }
