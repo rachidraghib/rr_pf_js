@@ -69,25 +69,24 @@ document.getElementById("resumeBtn").addEventListener("click", () => {
   document.body.removeChild(link);
 });
 
-
-
-
 /////////// BHCC Progress file download button ///////////
-document.getElementById("progBtn"," transcriptBtn").addEventListener("click", () => {
-  // 1. Create a hidden anchor element
-  const link = document.createElement("a");
+document
+  .getElementById("progBtn", " transcriptBtn")
+  .addEventListener("click", () => {
+    // 1. Create a hidden anchor element
+    const link = document.createElement("a");
 
-  // 2. Set the path to your BHCC progress file
-  link.href = "./tech_cer/CS_Progress.pdf","./tech_cer/transcript.pdf";
+    // 2. Set the path to your BHCC progress file
+    ((link.href = "./tech_cer/CS_Progress.pdf"), "./tech_cer/transcript.pdf");
 
-  // 3. Define the download filename
-  link.download = "CS_Progress.pdf","transcript.pdf";
+    // 3. Define the download filename
+    ((link.download = "CS_Progress.pdf"), "transcript.pdf");
 
-  // 4. Append to body, trigger programmatically, and clean up
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-});
+    // 4. Append to body, trigger programmatically, and clean up
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
 
 /////////// Transcript file download button ///////////
 document.getElementById("transcriptBtn").addEventListener("click", () => {
@@ -105,8 +104,6 @@ document.getElementById("transcriptBtn").addEventListener("click", () => {
   link.click();
   document.body.removeChild(link);
 });
-
-
 
 ///////////////////////////// Army Download Buttons ///////////////////////////////////
 
