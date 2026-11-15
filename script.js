@@ -130,10 +130,10 @@ document.getElementById("arabicBtn").addEventListener("click", () => {
   const link = document.createElement("a");
 
   // 2. Set the path to your resume file
-  link.href = "./army_cer/arabic.pdf";
+  link.href = "./army_cer/Arabic.pdf";
 
   // 3. Define the download filename
-  link.download = "arabic.pdf";
+  link.download = "Arabic.pdf";
 
   // 4. Append to body, trigger programmatically, and clean up
   document.body.appendChild(link);
